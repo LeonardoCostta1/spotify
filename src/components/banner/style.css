@@ -1,0 +1,11 @@
+.banner_wrapper {
+  width: 100%;
+}
+
+.banner_wrapper .banner_container {
+  height: 400px;
+  width: 100%;
+  background: #0e0e0e;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,87 @@
+.menu_wrapper {
+  height: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  background: black;
+}
+
+.menu_wrapper .logo_menu img {
+  width: 100px;
+}
+
+.menu_wrapper .seacrh_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.menu_wrapper .seacrh_bar .forb_bg {
+  background: #111;
+  border-radius: 40px;
+  border: 1px solid #222;
+}
+
+.menu_wrapper .seacrh_bar .forb_bg button {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: small;
+  position: relative;
+  top: 4px;
+  border-radius: 50px;
+  background: #222;
+}
+
+.menu_wrapper .seacrh_bar .forb_bg input {
+  background: none;
+  height: 40px;
+  border: none;
+  padding: 0 20px;
+  width: 400px;
+  color: #fff;
+}
+
+.menu_wrapper .seacrh_bar .forb_bg input::-webkit-input-placeholder {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.menu_wrapper .seacrh_bar .forb_bg input:-ms-input-placeholder {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.menu_wrapper .seacrh_bar .forb_bg input::-ms-input-placeholder {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.menu_wrapper .seacrh_bar .forb_bg input::placeholder {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.menu_wrapper .seacrh_bar .forb_bg input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */

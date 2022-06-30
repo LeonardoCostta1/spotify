@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+.banner_wrapper{
+    width: 100%;
+    .banner_container{
+        height: 400px;
+        width: 100%;
+        background: rgb(14, 14, 14);
+        margin-bottom: 50px;
+    }
+}

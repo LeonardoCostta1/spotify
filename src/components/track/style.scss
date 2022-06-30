@@ -1,0 +1,43 @@
+@import '../../styles/variables';
+.track_container{
+    .category_albums{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: 280px;
+        width: 100%;
+        .card{
+            background: $box;
+            height: 270px;
+            width: 200px;
+            margin: 5px;
+            border-radius: 10px;
+            text-align: left;
+            padding: 10px;
+            margin:  10px;
+            cursor: pointer;
+            &:hover{
+                opacity: .8;
+
+            }
+            .cover{
+                background: $bga;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .title{
+                font-weight: 700;
+                padding-top:10px ;
+                text-transform: capitalize;
+
+            }
+            .track{
+                color: $secundary;
+                text-transform: capitalize;
+
+            }
+        }
+    }
+}
